@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
@@ -86,32 +85,6 @@ h2.title {
     border: 1px solid #EC4C93;
     -webkit-box-shadow: 0 0 10px 0 #EC4C93;
     box-shadow: 0 0 10px 0 #EC4C93; }
-
-.hero__tilte {
-  position: relative; }
-
-.hero__title:before {
-  content: 'Chào mừng bạn đến với';
-  position: absolute;
-  mix-blend-mode: difference;
-  -webkit-filter: blur(3px);
-  filter: blur(3px); }
-
-.text--neon {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-filter: brightness(200%);
-  filter: brightness(200%); }
-
-.text-color {
-  background-color: #B769A0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  mix-blend-mode: multiply; }
 
 .header {
   background-color: #20062E; }
