@@ -1,0 +1,26 @@
+.media {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .post__list {
+    display: flex;
+    gap: 0 20px;
+
+    color: white;
+    padding-top: 60px
+  }
+
+  .container {
+    position: relative;
+  }
+
+  button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+    text-transform: uppercase;
+
+    padding: 10px 30px;
+  }
+}

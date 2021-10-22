@@ -1,0 +1,105 @@
+.wrapper {
+  max-width: $wrapper;
+  margin: 0 auto;
+}
+.container {
+  max-width: $container;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.main {
+  background: url('../images/main_bg.png') no-repeat center / cover;
+}
+h2.title {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.card {
+  color: white;
+  padding: 50px;
+
+  position: relative;
+  transition: all 0.2s linear;
+  border: 1px solid transparent;
+
+  &__thumbnail {
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.2;
+
+    margin-bottom: 30px;
+  }
+  
+  &__more {
+    color: $text-pink-color
+  }
+  &:before {
+    content: '';
+    position : absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+
+    background-color: #fff;
+  }
+  &:hover {
+    border: 1px solid $text-pink-color;
+    box-shadow: 0 0 10px 0 $text-pink-color;
+  }
+}
+
+.post {
+  color: white;
+
+  transition: all 0.2s linear;
+  border: 1px solid transparent;
+
+  &__content {
+    padding-left: 30px;
+    padding-right : 10px;
+    padding-bottom: 20px;
+  }
+
+  &__thumbnail {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    font-weight: 500;
+    font-size: 1.2rem;
+
+    margin-bottom: 30px;
+  }
+  
+  &__more {
+    color: $text-pink-color
+  }
+
+  &:hover {
+    border: 1px solid $text-pink-color;
+    box-shadow: 0 0 10px 0 $text-pink-color;
+  }
+}

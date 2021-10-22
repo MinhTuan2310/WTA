@@ -1,0 +1,14 @@
+header.header 
+  .container 
+    nav.nav 
+      h1.nav__brand
+        a(href="index.html")
+          img(src="../images/Vector.svg" alt="brand")
+      ul.nav__menu
+        each val in ['Trang chủ', 'Về WTA', 'Dịch vụ', 'Tin tức', 'Hỗ trợ', 'Liên hệ']
+          li.nav__link
+            a(href='#' class="nav__item")= val
+        .nav__sign-in 
+          button= 'Đăng nhập'
+          img(src="../images/flag.png" alt="flat")
+      i(class= 'fas fa-bars toggle__menu')

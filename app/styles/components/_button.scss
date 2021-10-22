@@ -1,0 +1,18 @@
+button {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: white;
+
+  border: none;
+  background-color: transparent;
+  border: 2px solid #EC4C93;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0px #EC4C93;
+  
+  cursor: pointer;
+  transition: all 0.2s linear;
+  &:hover {
+    box-shadow: 0 0 10px 0px #EC4C93;
+  }
+}

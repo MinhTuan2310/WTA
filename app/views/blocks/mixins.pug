@@ -1,0 +1,28 @@
+mixin menu(id, liClass, aClass, ...items)
+  ul(id=id)
+    each item in items
+      li(class=liClass)
+        a(href='#' class=aClass)= item
+
+mixin list(id, ...items)
+  ul(id=id)
+    each item in items
+      li= item
+
+mixin textTitle(title)
+  h2.title=title
+
+mixin card(src, title, desc)
+  .card
+    img.card__thumbnail(src=src)
+    p.card__title= title 
+    p.card__desc= desc 
+    a.card__more(href="#")= 'Read more'
+
+mixin post(src, title, time)
+  .post 
+    img.post__thumbnail(src=src)
+    .post__content
+      p.post__title= title 
+      p.post__desc= time 
+      a.post__more(href="#")= 'Read more'
